@@ -3,7 +3,7 @@
 
 ## Tổng quan quá trình huấn luyện
 
-Trong phần này, mô hình Vision Transformer (ViT) được triển khai trên bộ dữ liệu CIFAR-100 nhằm thực hiện bài toán phân loại ảnh đa lớp. Mô hình được xây dựng bằng PyTorch, khởi tạo trọng số từ đầu (training from scratch), không sử dụng mô hình pretrained.
+Mô hình Vision Transformer (ViT) được triển khai trên bộ dữ liệu CIFAR-100 nhằm thực hiện bài toán phân loại ảnh đa lớp. Mô hình được xây dựng bằng PyTorch, khởi tạo trọng số từ đầu (training from scratch), không sử dụng mô hình pretrained.
 
 Bộ dữ liệu CIFAR-100 bao gồm 100 lớp đối tượng, với 50.000 ảnh trong tập huấn luyện ban đầu và 10.000 ảnh trong tập kiểm tra. Tập huấn luyện được chia thành 45.000 ảnh Training và 5.000 ảnh Validation nhằm phục vụ quá trình huấn luyện, theo dõi hiệu quả mô hình và lựa chọn checkpoint tốt nhất.
 
