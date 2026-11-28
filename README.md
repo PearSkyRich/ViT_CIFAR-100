@@ -1,6 +1,11 @@
 # ViT_CIFAR-100
 # Kết quả triển khai Vision Transformer (ViT) trên CIFAR-100
 
+Run_Model.ipynb: File chạy mô hình để dự đoán ảnh mới
+best_vit_cifar.pth: File lưu trọng số mô hình tốt nhất
+cifar_classes.json: Lưu danh sách 100 nhãn của CIFAR-100
+ViT_Cifar_100: Notebook triển khai và huấn luyện mô hình
+
 ## Tổng quan quá trình huấn luyện
 
 Mô hình Vision Transformer (ViT) được triển khai trên bộ dữ liệu CIFAR-100 nhằm thực hiện bài toán phân loại ảnh đa lớp. Mô hình được xây dựng bằng PyTorch, khởi tạo trọng số từ đầu (training from scratch), không sử dụng mô hình pretrained.
